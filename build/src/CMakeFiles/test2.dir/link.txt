@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtest2.a  CMakeFiles/test2.dir/WalkMaze.cpp.o
+/usr/bin/ranlib libtest2.a

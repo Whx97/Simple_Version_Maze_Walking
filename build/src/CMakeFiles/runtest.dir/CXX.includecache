@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/MazeWalking/Box.h
+
+../include/MazeWalking/Maze.h
+iostream
+-
+vector
+-
+stack
+-
+
+../include/MazeWalking/WalkMaze.h
+Maze.h
+../include/MazeWalking/Maze.h
+Box.h
+../include/MazeWalking/Box.h
+iostream
+-
+vector
+-
+stack
+-
+
+/home/wuhongxi/TEST/second_work/test/runtest.cpp
+WalkMaze.h
+/home/wuhongxi/TEST/second_work/test/WalkMaze.h
+Maze.h
+/home/wuhongxi/TEST/second_work/test/Maze.h
+Box.h
+/home/wuhongxi/TEST/second_work/test/Box.h
+
